@@ -33,22 +33,8 @@ public class wordplay {
 		int x = 0;
 		int y = i;
 		
-		//boolean t = true;
 		
-		do{
-			//System.out.println("første:"+this.word.charAt(x)+" Siste:"+this.word.charAt(y)+" x:"+x+" y: "+y);
-			/*if(this.word.charAt(x) == this.word.charAt(y))
-			{ 
-				t = true;
-				//System.out.println("true;");
-			}	
-			else {
-				//System.out.println("false;");
-				t = false;
-				return false;
-				}
-			*/
-			
+		do{			
 			if(this.word.charAt(x) != this.word.charAt(y))
 			{ 
 				return false;
@@ -91,9 +77,6 @@ public String middle(){
 		System.out.println(w3.word+": "+w3.palindrome());
 		System.out.println(w4.word+": "+w4.palindrome());
 		System.out.println(w5.word+": "+w5.palindrome());
-		
-		
-		
 	}
 }
 
